@@ -1,0 +1,109 @@
+
+/*整体设计*/
+*
+{
+    margin:0;
+    padding:0;
+}
+.div
+{
+    display:block;
+}
+.ul
+{
+    display:block;
+    list-style-type:none;
+    
+}
+ .fl
+ {
+     float:left;
+ }
+ .fr
+ {
+     float:right;
+    height: 29px;
+}
+ li
+ {
+     display:list-item;
+     list-style:none;
+ }
+/*登录人员导航设置*/
+.login_box{ 
+	background-color: red;  
+            }
+ .w
+ {
+     height:30px;
+     line-height:30px;
+ }
+ .tt_mycity
+ {
+     margin-left:200px;
+ }
+ .dropdowm
+ {
+     position:relative;
+     z-index:21;
+ }
+#login_box li
+{
+    float:left;
+}
+li.space
+{
+    overflow:hidden;
+    margin:11px 5px 0;
+    width:1px;
+    height:10px;
+    background-color:#CCC;
+}
+.dt
+{
+    padding-left:7px;
+    padding-right:7px;
+     float:left;
+}
+/*头部页面*/
+.header
+{
+    
+}
+#header .w
+{
+    height:140px;
+    z-index:15;
+    position:relative;
+}
+.hotwords
+{
+    
+}
+.logo
+{
+    position:absolute;
+    z-index:2;
+    left:0;
+    top:-31px;
+    width:190px;
+    height:170px;
+   
+ 
+ }
+ .setup
+ {
+     
+ }   
+.search_box
+{
+    
+}
+ /*主体页面*/           
+.main_box{
+	background-color: green;	
+}
+.body
+{
+    min-width: 900px;
+}
