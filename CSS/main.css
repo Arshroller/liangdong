@@ -29,14 +29,19 @@
      display:list-item;
      list-style:none;
  }
+ .all
+ {
+     margin-left:100px;
+     margin-right:100px;
+ }
 /*登录人员导航设置*/
 .login_box{ 
-	background-color: red;  
+	background-color: #ccc;  
             }
  .w
  {
      height:30px;
-     line-height:30px;
+     line-height:30px;        
  }
  .tt_mycity
  {
@@ -57,7 +62,7 @@ li.space
     margin:11px 5px 0;
     width:1px;
     height:10px;
-    background-color:#CCC;
+    background-color:black;
 }
 .dt
 {
@@ -66,19 +71,35 @@ li.space
      float:left;
 }
 /*头部页面*/
-.header
+#header
 {
-    
+    display:block;
+   
 }
-#header .w
+.w1
 {
     height:140px;
     z-index:15;
     position:relative;
-}
-.hotwords
-{
+    margin:auto;
+    width:1190px;
     
+}
+#hotwords
+{
+    position:absolute;
+    left:270px;
+    width:400px;
+    height:20px;
+    top:65px;
+    line-height:20px;
+}
+#hotwords a
+{
+    float:left;
+    margin-right:10px;
+    white-space:nowrap;
+    text-decoration:none;
 }
 .logo
 {
@@ -89,6 +110,7 @@ li.space
     width:190px;
     height:170px;
    
+
  
  }
  .setup
@@ -99,11 +121,35 @@ li.space
 {
     
 }
+.search_m
+{
+    position:relative;
+    z-index:1;
+    height:60px;
+}
+.search_from
+{   position:absolute;
+    left:270px;
+    width:400px;
+    top:25px;
+    height:35px;
+}
+.search_btn
+{
+    position:absolute;
+    background:url(http://localhost:1191/liangdong/images/search_btn.png);
+    top: 2px;
+    left: 340px;
+    height: 30px;
+    margin-left:1px;
+    border:none;
+}
  /*主体页面*/           
 .main_box{
-	background-color: green;	
+	background-color: green;
+	
 }
-.body
+body
 {
     min-width: 900px;
 }

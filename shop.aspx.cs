@@ -11,4 +11,8 @@ public partial class shop : System.Web.UI.Page
     {
 
     }
+    protected void TextBox1_TextChanged(object sender, EventArgs e)
+    {
+
+    }
 }

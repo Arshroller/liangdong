@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div >
       <div class="login_box">
        <div class="w">
           <ul class="fl">
@@ -34,17 +34,33 @@
             </ul>
                   </div>
                       </div>
-      <div class="header">
-      <div class="w">
-    <div class="logo"></div>
+      <div id="header">
+      <div class="w1">
+    <div class="logo"><img src="images/logo.png" /></div>
      <div class="search_box"> 
+          <div class="search_m">
           
+          <div class="search_from">
+
+              <asp:TextBox ID="search_box" runat="server" Height="25px" 
+                  ontextchanged="TextBox1_TextChanged" Width="340px" ></asp:TextBox>
+              <asp:Button ID="search_btn" runat="server" 
+                  Width="50px" CssClass="search_btn"  />
+                  
+          </div>
+          <div id="hotwords">
+          <a href="" style="color:Red">满200减199</a>
+          <a href="">1212神券</a>
+          <a href="">3件8折</a>
+          <a href="">5件清仓</a>
+          </div>
+          </div>
        </div>
        <div class="hotwords></div>
        <div class="setup></div>
        </div>
        </div>
-      
+      </div>
      
     </form>
 </body>
