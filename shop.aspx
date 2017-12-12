@@ -5,6 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+<script type="text/javascript" src="jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="jquery/unslider.min.js"></script>
+<script type"text/javascript">
+    $(function () {
+        $('.banner').unslider();
+    });
+</script>
     <title></title>
 </head>
 <body>
@@ -60,35 +67,11 @@
        <div class="setup></div>
        </div>
        </div>
+    <div class="main_box">
+      <div class="main_box1">
+      <div class="left1">
        <div class="menu">
-    <div class="menuTop">全部商品分类</div>
-    <ul>
-     
-      <li> <a herf="javascript:;">一级标题 1</a> <span></span>
-        <div class="submenu">
-          <div class="subleft">
-            <dl>
-              <dt>二级标题111</dt>
-              <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-            </dl>
-            <dl>
-              <dt>二级标题</dt>
-              <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-            </dl>
-            <dl>
-              <dt>二级标题</dt>
-              <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-            </dl>
-            <dl>
-              <dt>二级标题</dt>
-              <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-            </dl>
-          </div>
-          <div class="subright" style="background-color: antiquewhite"> </div>
-        </div>
-      </li>
-      
-      
+    <ul> 
       <li> <a herf="javascript:;">一级标题 2</a> <span></span>
         <div class="submenu">
         <div class="subleft">
@@ -303,10 +286,22 @@
       </li>
       
     </ul>
-    
+    </div>
+  </div>
+  <div class="left2">
+   <div class="banner">
+    <ul>
+     <li><img src="images/01.jpg" style="width:790px;height:340px" /></li>
+     <li><img src="images/02.jpg" style="width:790px;height:340px" /></li>
+     <li><img src="images/03.jpg" style="width:790px;height:340px" /></li>
+     <li><img src="images/04.jpg" style="width:790px;height:340px" /></li>
+     <li><img src="images/05.jpg" style="width:790px;height:340px" /></li>
+    </ul>
+   </div>
+  </div>
   </div>
       </div>
-     
+    </div>
     </form>
 </body>
 </html>
