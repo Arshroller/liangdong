@@ -216,76 +216,7 @@
       </li>
       
       
-      <li> <a herf="javascript:;">一级标题 8</a> <span></span>
-        <div class="submenu">
-        <div class="subleft">
-          <dl>
-            <dt>二级标题888</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-          </dl>
-          <dl>
-            <dt>二级标题</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-          </dl>
-          <dl>
-            <dt>二级标题</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-          </dl>
-          <dl>
-            <dt>二级标题</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题8</a> </dd>
-          </dl>
-        </div>
-        <div class="subright" style="background-color:lightseagreen"> </div>
-      </li>
-      <li> <a herf="javascript:;">一级标题 9</a> <span></span>
-        <div class="submenu">
-        <div class="subleft">
-          <dl>
-            <dt>二级标题999</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-          </dl>
-          <dl>
-            <dt>二级标题</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-          </dl>
-          <dl>
-            <dt>二级标题</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-          </dl>
-          <dl>
-            <dt>二级标题</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题9</a> </dd>
-          </dl>
-        </div>
-        <div class="subright" style="background-color:mistyrose"> </div>
-      </li>
-      
-      
-      <li> <a herf="javascript:;">一级标题 10</a> <span></span>
-        <div class="submenu">
-        <div class="subleft">
-          <dl>
-            <dt>二级标题1010</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-          </dl>
-          <dl>
-            <dt>二级标题</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-          </dl>
-          <dl>
-            <dt>二级标题</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> </dd>
-          </dl>
-          <dl>
-            <dt>二级标题</dt>
-            <dd> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题</a> <a href="javascript:;">三级标题10</a> </dd>
-          </dl>
-        </div>
-        <div class="subright" style="background-color:salmon"> </div>
-      </li>
-      
-    </ul>
+     
     </div>
   </div>
   <div class="left2">
@@ -298,6 +229,30 @@
      <li><img src="images/05.jpg" style="width:790px;height:340px" /></li>
     </ul>
    </div>
+  <div class="guangao">
+   <div class="guanggao1"><img src="images/guanggao1.jpg" /></div>
+    <div class="guanggao1"><img src="images/guanggao2.jpg" /></div>
+   </div>
+  </div>
+  <div class="left3">
+    <div class="user">
+    <div class="userinfo">
+    <div class="userhead">
+    <a href="" style="text-decoration:none;">头像</a>
+     </div>
+     <div class="usertip"> 
+        <p>Hi!欢迎来到凉东</p>
+         </div>
+    </div>
+   <div>
+    <a class="denglu" href="">登录</a>
+    <a class="denglu" href="">注册</a>
+    </div>
+    <div class="datainfo">
+    <p>2017-12-13</p>
+    <p>    10:16</p>
+    </div>
+    </div>
   </div>
   </div>
       </div>

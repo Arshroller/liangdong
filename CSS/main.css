@@ -148,18 +148,18 @@ li.space
 /*商品导航*/
 .menu { }
 .menu ul { width: 160px; background-color: #fff; border: 2px solid #F10215; box-sizing: border-box; position: relative; }
-.menu ul li { height: 40px; padding-left: 8px; text-align: left; line-height: 40px; font-size: 13px; background: url(image/1.png) no-repeat right; z-index: 2;  }
+.menu ul li { height: 70px; padding-left: 8px; text-align: left; line-height: 50px; font-size: 17px; background: url(image/1.png) no-repeat right; z-index: 2;  }
 .menu ul li a { color: #7070770; }
 .menu ul li a:hover { color: red; text-decoration: underline; cursor: pointer; }
 .menu ul li:hover { border: 1px solid #DDD; border-right: 0; background-image: none; }
 .menu ul li:hover .submenu { display: block; }
-.menu ul li:hover span { width: 40px; height: 40px; display: inline-block; background-color: #FFF; float: right; z-index: 100; position: relative; }
-.menu ul li .submenu { position: absolute; left: 146px; top: 0; width: 720px; height: 300px; border: 1px solid #DDD; box-shadow: 0 0 8px #DDD; -moz-box-shadow: 0 0 8px #DDD; -webkit-box-shadow: 0 0 8px #DDD; background-color: #FFF; z-index: 3; display: none; }
-.menu ul li .submenu .subleft { margin-left: 0px; width: 400px; height: 300px; float: left; padding: 5px; }
+.menu ul li:hover span { width: 40px; height: 60px; display: inline-block; background-color: #FFF; float: right; z-index: 100; position: relative; }
+.menu ul li .submenu { position: absolute; left: 146px; top: 0; width: 720px; height: 400px; border: 1px solid #DDD; box-shadow: 0 0 8px #DDD; -moz-box-shadow: 0 0 8px #DDD; -webkit-box-shadow: 0 0 8px #DDD; background-color: #FFF; z-index: 3; display: none; }
+.menu ul li .submenu .subleft { margin-left: 0px; width: 400px; height: 400px; float: left; padding: 5px; }
 .menu ul li .submenu .subleft dl { overflow: hidden; border-bottom: 1px solid #D1D1D1; padding: 10px 0; }
-.menu ul li .submenu .subleft dl dt { float: left; height: 30px; line-height: 22px; margin-right: 10px; font-weight: bold; color: #707070; font-size: 15px; cursor: pointer; }
+.menu ul li .submenu .subleft dl dt { float: left; height: 40px; line-height: 22px; margin-right: 10px; font-weight: bold; color: #707070; font-size: 18px; cursor: pointer; }
 .menu ul li .submenu .subleft dl dd { }
-.menu ul li .submenu .subleft dl dd a { display: block; float: left; border-left: 1px solid #707070; padding: 0 5px; color: #707070; height: 14px; line-height: 14px; margin: 3px 0; font-size: 12px; }
+.menu ul li .submenu .subleft dl dd a { display: block; float: left; border-left: 1px solid #707070; padding: 0 5px; color: #707070; height: 16px; line-height: 14px; margin: 3px 0; font-size: 14px; }
 .menu ul li .submenu .subright { width: 310px; height: 300px; background-color: blue; float: left; }
  /*主体页面*/           
 .main_box
@@ -168,6 +168,7 @@ li.space
     z-index:9;
     margin-bottom:10px;
     padding-top:2px;
+    background-color:#dcdddd;
 }
 body
 {
@@ -191,11 +192,71 @@ body
 {
     z-index:5;
 }
+.left3
+{
+    width:150px;
+    float:right;
+    margin-left:10px;
+    float:left;
+}
 .left1,.left2
 {
     float:left;
+}
+.guangao
+{
+    height:130px;
+    margin-left:-10px;
+}
+.guanggao1
+{
+    height:130px;
+    width:390px;
+    margin-left:10px;
+    float:left;
+    overflow:hidden;
 }
 /*轮播*/
 .banner { position: relative; overflow: auto;z-index:-1; }
     .banner li { list-style: none;z-index:-1; }
         .banner ul li { float: left;z-index:-1; }
+  /*用户登录*/
+  .user
+  {
+      padding-left:15px;
+      padding-right:15px;
+      height:200px;
+      background-color:white;
+  }
+  .userinfo
+  {
+      padding:15px 0 15px 50px;
+      overflow:hidden;
+      height:40px;
+      position:relative;
+      
+  }
+ .userhead
+ {
+     position:absolute;
+     height:50px;
+     width:50px;
+     margin-left:-50px;
+ }
+ .usertip
+ {
+     
+ }
+ .denglu
+ {
+     height:25px;
+     width:40px;
+     float:left;
+     margin-left:10px;
+     text-decoration:none;
+ }
+ .datainfo
+ {
+     height:100px;
+     width:120px;
+ }
