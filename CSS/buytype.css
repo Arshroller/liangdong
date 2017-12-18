@@ -1,0 +1,33 @@
+﻿.buy
+{
+    width:900px;
+    height:auto;
+    float:left;
+    padding-left:20px;
+}
+.buy ul
+{
+    display:block;
+    list-style:none;
+    margin-top:20px;
+}
+.buy ul li
+{
+   
+    float:left;
+    width:250px;
+    margin-right:10px;
+    padding:10px 10px 0 0;  
+}
+ .pic
+{
+    width:250px;
+    position:relative;
+    text-align:center;
+    background-color:Blue;
+    height:300px;
+}
+.buy txt
+{
+    
+}

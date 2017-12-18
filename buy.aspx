@@ -1,23 +1,17 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="shop.aspx.cs" Inherits="shop" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="buy.aspx.cs" Inherits="buy" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <link rel="stylesheet" type="text/css" href="CSS/main.css" />
-<script type="text/javascript" src="jquery/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="jquery/unslider.min.js"></script>
-<script type"text/javascript">
-    $(function () {
-        $('.banner').unslider();
-    });
-</script>
+<link rel="Stylesheet" type="text/css" href="CSS/buytype.css" />
     <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div >
-      <div class="login_box">
+    <div>
+    <div class="login_box">
        <div class="w">
           <ul class="fl">
              <li class="dropdowm" id="tt_mycity">
@@ -49,25 +43,16 @@
           
           <div class="search_from">
 
-              <asp:TextBox ID="search_box" runat="server" Height="25px" 
-                  ontextchanged="TextBox1_TextChanged" Width="340px" ></asp:TextBox>
-              <asp:Button ID="search_btn" runat="server" 
-                  Width="50px" CssClass="search_btn"  />
+              <asp:TextBox ID="search_box" runat="server" Height="25px" ontextchanged="TextBox1_TextChanged" Width="340px" ></asp:TextBox>
+              <asp:Button ID="search_btn" runat="server" Width="50px" CssClass="search_btn"  />
                   
           </div>
-          <div id="hotwords">
-          <a href="" style="color:Red">满200减199</a>
-          <a href="">1212神券</a>
-          <a href="">3件8折</a>
-          <a href="">5件清仓</a>
-          </div>
-          </div>
-       </div>
-       <div class="hotwords></div>
-       <div class="setup></div>
-       </div>
-       </div>
-    <div class="main_box">
+          
+    </div>
+    </div>
+    </div>
+    </div>
+       <div class="main_box" style="background-color:White">
       <div class="main_box1">
       <div class="left1">
        <div class="menu">
@@ -168,50 +153,24 @@
       </li>
       
       
-      
+     
         </div>
         <div class="subright"> </div>
-      </li>
-    </div>
+    
   </div>
-  <div class="left2">
-   <div class="banner">
-    <ul>
-     <li><img src="images/01.jpg" style="width:790px;height:340px" /></li>
-     <li><img src="images/02.jpg" style="width:790px;height:340px" /></li>
-     <li><img src="images/03.jpg" style="width:790px;height:340px" /></li>
-     <li><img src="images/04.jpg" style="width:790px;height:340px" /></li>
-     <li><img src="images/05.jpg" style="width:790px;height:340px" /></li>
-    </ul>
-   </div>
-  <div class="guangao">
-   <div class="guanggao1"><img src="images/guanggao1.jpg" /></div>
-    <div class="guanggao1"><img src="images/guanggao2.jpg" /></div>
-   </div>
+  <div class="buy">
+  <ul>
+  <li><div class="pic"></div></li>
+  <li><div class="pic"></div></li>
+  <li><div class="pic"></div></li>
+  <li><div class="pic"></div></li>
+  <li><div class="pic"></div></li>
+  </ul>
   </div>
-  <div class="left3">
-    <div class="user">
-    <div class="userinfo">
-    <div class="userhead">
-    <a href="" style="text-decoration:none;">头像</a>
-     </div>
-     <div class="usertip"> 
-        <p>Hi!欢迎来到凉东</p>
-         </div>
-    </div>
-   <div>
-    <a class="denglu" href="">登录</a>
-    <a class="denglu" href="">注册</a>
-    </div>
-    <div class="datainfo">
-    <p>2017-12-13</p>
-    <p>    10:16</p>
-    </div>
-    </div>
+
   </div>
   </div>
-      </div>
-    </div>
+  </div>
     </form>
 </body>
 </html>
