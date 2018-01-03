@@ -1,9 +1,11 @@
 ﻿.buy
 {
     width:900px;
-    height:auto;
+    height:600px;
     float:left;
     padding-left:20px;
+    margin-left:50px;
+    background-color:Pink;
 }
 .buy ul
 {
@@ -20,12 +22,13 @@
     padding:10px 10px 0 0;  
 }
  .pic
-{
+{  
     width:250px;
     position:relative;
     text-align:center;
     background-color:Blue;
-    height:300px;
+    height:200px;
+    background-color:Green;
 }
 .buy txt
 {
